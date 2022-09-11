@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Obj">
+      <UniqueIdentifier>{f609783a-68e7-4c4e-858f-c85097402468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Player">
+      <UniqueIdentifier>{1c5ec824-927c-45bf-9326-d906035ea761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MainGame">
+      <UniqueIdentifier>{ec3ef42d-c636-48fd-8aa5-159eef83f183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Monster">
+      <UniqueIdentifier>{639dc228-aa47-4117-94e9-b8f3ab4a904b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Mgr">
+      <UniqueIdentifier>{09935b42-ce53-46ef-a9a2-d8445d37ecaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\잡것들">
+      <UniqueIdentifier>{627df3a3-a904-4357-9d23-8bec7d90a7d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Bullet">
+      <UniqueIdentifier>{f6bf3bfd-ad62-4723-b66e-b0a5d33d376e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\jingun%27s iDle\jingun%27s iDle\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\jingun%27s iDle\jingun%27s iDle\MainGame.h">
+      <Filter>소스 파일\MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\jingun%27s iDle\jingun%27s iDle\Obj.h">
+      <Filter>소스 파일\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\jingun%27s iDle\jingun%27s iDle\Player.h">
+      <Filter>소스 파일\Obj\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\jingun%27s iDle\jingun%27s iDle\Monster.h">
+      <Filter>소스 파일\Obj\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\jingun%27s iDle\jingun%27s iDle\CollisionMgr.h">
+      <Filter>소스 파일\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\jingun%27s iDle\jingun%27s iDle\ObjMgr.h">
+      <Filter>소스 파일\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\jingun%27s iDle\jingun%27s iDle\AbstractFactory.h">
+      <Filter>헤더 파일\잡것들</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\jingun%27s iDle\jingun%27s iDle\Define.h">
+      <Filter>헤더 파일\잡것들</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\jingun%27s iDle\jingun%27s iDle\Resource.h">
+      <Filter>헤더 파일\잡것들</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\jingun%27s iDle\jingun%27s iDle\stdafx.h">
+      <Filter>헤더 파일\잡것들</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\jingun%27s iDle\jingun%27s iDle\targetver.h">
+      <Filter>헤더 파일\잡것들</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\jingun%27s iDle\jingun%27s iDle\jingun%27s iDle.h">
+      <Filter>헤더 파일\잡것들</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\jingun%27s iDle\jingun%27s iDle\Line.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\jingun%27s iDle\jingun%27s iDle\LineMgr.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>소스 파일\Obj\Bullet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\jingun%27s iDle\jingun%27s iDle\stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\jingun%27s iDle\jingun%27s iDle\jingun%27s iDle.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\jingun%27s iDle\jingun%27s iDle\MainGame.cpp">
+      <Filter>소스 파일\MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\jingun%27s iDle\jingun%27s iDle\Obj.cpp">
+      <Filter>소스 파일\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\jingun%27s iDle\jingun%27s iDle\Player.cpp">
+      <Filter>소스 파일\Obj\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\jingun%27s iDle\jingun%27s iDle\Monster.cpp">
+      <Filter>소스 파일\Obj\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\jingun%27s iDle\jingun%27s iDle\CollisionMgr.cpp">
+      <Filter>소스 파일\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\jingun%27s iDle\jingun%27s iDle\ObjMgr.cpp">
+      <Filter>소스 파일\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\jingun%27s iDle\jingun%27s iDle\Line.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\jingun%27s iDle\jingun%27s iDle\LineMgr.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일\Obj\Bullet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\jingun%27s iDle\jingun%27s iDle\jingun%27s iDle.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\jingun%27s iDle\jingun%27s iDle\small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\jingun%27s iDle\jingun%27s iDle\jingun%27s iDle.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
